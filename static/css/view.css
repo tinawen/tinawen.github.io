@@ -1,0 +1,329 @@
+html {
+  height: 100%; }
+
+body {
+  background-color: #d6ffff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  min-height: 100%; }
+  body #page_content {
+    height: 100%; }
+    body #page_content .content {
+      margin: 40px 20px 40px 260px;
+      padding-right: 40px;
+      float: left;
+      width: 70%;
+      min-width: 830px;
+      color: #191970;
+      line-height: 20px; }
+    body #page_content #home {
+      margin-top: 0;
+      min-width: 0; }
+      body #page_content #home #bubbles .bubble a {
+        margin: 30px;
+        float: left;
+        width: 360px;
+        height: 239px;
+        border: 5px solid #b8e8e8;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out 0;
+        -webkit-transition: all 0.2s ease-in-out 0;
+        -moz-transition: all 0.2s ease-in-out 0; }
+        body #page_content #home #bubbles .bubble a .bubble-text {
+          color: #fff;
+          font-size: 24px;
+          text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+          margin-top: 190px;
+          margin-left: 30px; }
+        body #page_content #home #bubbles .bubble a#dropbox {
+          background-color: rgba(0, 0, 0, 0.7);
+          background-image: url("../img/dropbox.png"); }
+        body #page_content #home #bubbles .bubble a#food {
+          background-image: url("../img/food.png"); }
+        body #page_content #home #bubbles .bubble a#mit {
+          background-image: url("../img/mit.png"); }
+        body #page_content #home #bubbles .bubble a#travel {
+          background-image: url("../img/travel.png"); }
+        body #page_content #home #bubbles .bubble a#coder {
+          background-image: url("../img/coder.png"); }
+        body #page_content #home #bubbles .bubble a#about-me {
+          background-image: url("../img/profile_tina.png"); }
+        body #page_content #home #bubbles .bubble a:hover {
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          transform: scale(1.1); }
+    body #page_content #bio {
+      padding-bottom: 20px; }
+      body #page_content #bio #header #name {
+        float: left;
+        margin-left: 100px; }
+      body #page_content #bio #header #photo {
+        float: right;
+        margin-right: 100px; }
+      body #page_content #bio .bio-title {
+        clear: left;
+        float: left;
+        font-weight: bold;
+        margin-top: 30px; }
+      body #page_content #bio p {
+        float: left;
+        line-height: 24px; }
+    body #page_content .content#project {
+      margin-left: 220px; }
+      body #page_content .content#project .project-item {
+        clear: both;
+        margin: 20px 0;
+        padding: 20px 0; }
+        body #page_content .content#project .project-item .project-image {
+          float: left;
+          width: 200px; }
+          body #page_content .content#project .project-item .project-image img {
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            width: 200px; }
+        body #page_content .content#project .project-item .project-desc {
+          margin-left: 240px; }
+          body #page_content .content#project .project-item .project-desc .project-detail {
+            margin-top: 5px;
+            line-height: 24px; }
+    body #page_content #menu, body #page_content #connect4, body #page_content #file-browser, body #page_content #chrome-extension, body #page_content #traveling {
+      margin-top: 50px;
+      line-height: 24px; }
+      body #page_content #menu p, body #page_content #connect4 p, body #page_content #file-browser p, body #page_content #chrome-extension p, body #page_content #traveling p {
+        float: left; }
+      body #page_content #menu li, body #page_content #connect4 li, body #page_content #file-browser li, body #page_content #chrome-extension li, body #page_content #traveling li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+        text-decoration: none; }
+      body #page_content #menu img, body #page_content #connect4 img, body #page_content #file-browser img, body #page_content #chrome-extension img, body #page_content #traveling img {
+        clear: both;
+        margin: 30px;
+        width: 80%; }
+    body #page_content #traveling {
+      text-align: center; }
+      body #page_content #traveling p {
+        text-align: left; }
+      body #page_content #traveling li {
+        display: block;
+        text-align: left;
+        width: 100%; }
+        body #page_content #traveling li span {
+          margin-left: 20px; }
+    body #page_content #project h3 {
+      margin-bottom: 0; }
+    body #page_content #project p {
+      margin-bottom: 30px; }
+    body #page_content #connect4 #presentation {
+      float: left; }
+      body #page_content #connect4 #presentation li {
+        float: left; }
+    body #page_content #connect4 #code {
+      float: left; }
+      body #page_content #connect4 #code li {
+        float: left; }
+    body #page_content #navbar {
+      position: fixed;
+      float: left;
+      margin-top: 30px; }
+      body #page_content #navbar #nav {
+        float: left;
+        line-height: 50px;
+        padding: 0; }
+        body #page_content #navbar #nav li {
+          background-color: rgba(0, 0, 0, 0.1);
+          -webkit-border-bottom-right-radius: 10px;
+          -moz-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          -webkit-border-top-right-radius: 10px;
+          -moz-border-top-right-radius: 10px;
+          border-top-right-radius: 10px;
+          list-style: none;
+          clear: left;
+          float: left;
+          width: 120px;
+          height: 50px;
+          font-size: 22px;
+          padding: 8px 28px;
+          margin: 4px 0;
+          transition: all 0.1s ease-in 0.05s;
+          -webkit-transition: all 0.1s ease-in 0.05s;
+          -moz-transition: all 0.1s ease-in 0.05s; }
+          body #page_content #navbar #nav li:hover {
+            padding-right: 50px; }
+          body #page_content #navbar #nav li a {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            padding-left: 20px; }
+          body #page_content #navbar #nav li.active, body #page_content #navbar #nav li:focus {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-right: 28px; }
+            body #page_content #navbar #nav li.active:hover, body #page_content #navbar #nav li:focus:hover {
+              padding-right: 50px; }
+            body #page_content #navbar #nav li.active a, body #page_content #navbar #nav li:focus a {
+              color: #fff;
+              opacity: 1; }
+            body #page_content #navbar #nav li.active img, body #page_content #navbar #nav li:focus img {
+              width: 30px;
+              position: relative;
+              top: -40px;
+              left: -17px;
+              margin-right: 5px; }
+
+.button {
+  color: #fff;
+  float: left;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 130px;
+  height: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.19), 0 2px 1px cornflowerblue, inset 0 1px 0 cornflowerblue;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.19), 0 2px 1px cornflowerblue, inset 0 1px 0 cornflowerblue;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.19), 0 2px 1px cornflowerblue, inset 0 1px 0 cornflowerblue;
+  background: rgba(180, 180, 180, 0.19);
+  /* fallback for old browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.19)), to(rgba(180, 180, 180, 0.19)));
+  /* webkit */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.19), rgba(180, 180, 180, 0.19));
+  /* firefox 3.6+ */
+  background-color: #000080;
+  text-decoration: none;
+  text-align: center; }
+
+#page_content > #resume-page-wrapper {
+  margin-top: 0;
+  margin-left: 175px;
+  padding-bottom: 30px;
+  float: left;
+  width: 85%; }
+
+#resume-background {
+  clear: left;
+  -moz-box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8), inset 0 0 0 black;
+  -webkit-box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8), inset 0 0 0 black;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8), inset 0 0 0 black;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  margin: 27px 20px;
+  float: left; }
+  #resume-background #resume-content {
+    margin: 50px 30px; }
+    #resume-background #resume-content #contact {
+      border-bottom: 1px solid #000;
+      height: 20px;
+      /* margin-right: 20px; */ }
+      #resume-background #resume-content #contact #name {
+        float: left;
+        font-weight: bold;
+        font-size: 20px; }
+      #resume-background #resume-content #contact #email {
+        float: right;
+        padding: 0 5px; }
+    #resume-background #resume-content .contact-field {
+      clear: both;
+      float: right;
+      /* margin-right: 20px; */ }
+    #resume-background #resume-content .detail-field {
+      clear: both; }
+      #resume-background #resume-content .detail-field .section {
+        padding: 10px 0; }
+        #resume-background #resume-content .detail-field .section .section-title {
+          font-size: 16px;
+          font-weight: bold;
+          position: absolute;
+          width: 120px; }
+        #resume-background #resume-content .detail-field .section .section-content-header {
+          font-weight: bold;
+          margin-left: 120px; }
+          #resume-background #resume-content .detail-field .section .section-content-header #gpa {
+            padding: 0 10px; }
+          #resume-background #resume-content .detail-field .section .section-content-header .location {
+            float: right; }
+        #resume-background #resume-content .detail-field .section .date {
+          font-weight: normal;
+          font-style: italic;
+          padding: 0 10px; }
+        #resume-background #resume-content .detail-field .section .section-content-detail {
+          margin-left: 120px;
+          margin-top: 8px; }
+          #resume-background #resume-content .detail-field .section .section-content-detail.no-header {
+            margin-top: 0; }
+          #resume-background #resume-content .detail-field .section .section-content-detail li {
+            text-decoration: none;
+            list-style: none; }
+          #resume-background #resume-content .detail-field .section .section-content-detail .detail-header {
+            padding-right: 5px;
+            text-decoration: underline; }
+          #resume-background #resume-content .detail-field .section .section-content-detail .article {
+            margin-top: 12px; }
+            #resume-background #resume-content .detail-field .section .section-content-detail .article.first {
+              margin-top: 0; }
+            #resume-background #resume-content .detail-field .section .section-content-detail .article .magazine {
+              font-style: italic;
+              padding: 0 4px; }
+
+@media print {
+  #navbar {
+    display: none; }
+
+  #page_content > #resume-page-wrapper {
+    margin: 10px 20px 0 20px;
+    width: 1030px;
+    padding-bottom: 0; }
+
+  #resume-background {
+    margin: 0;
+    padding: 0;
+    -moz-box-shadow: 0 0 0 white, inset 0 0 0 black;
+    -webkit-box-shadow: 0 0 0 white, inset 0 0 0 black;
+    box-shadow: 0 0 0 white, inset 0 0 0 black; }
+    #resume-background #resume-content {
+      margin-top: 40px;
+      margin-bottom: 30px; }
+    #resume-background .detail-field {
+      margin-right: 0; }
+      #resume-background .detail-field .section {
+        margin: 0; }
+
+  .button {
+    display: none; }
+
+  a {
+    color: #000; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #resumr-page-wrapper #resume-background {
+    margin-left: 0; }
+
+  #navbar #nav li {
+    padding: 8px 10px;
+    width: 100px; }
+
+  .button {
+    display: none; }
+
+  body > #page_content .content#project {
+    margin-left: 200px; }
+  body > #page_content .content#home {
+    margin-left: 160px; } }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #resumr-page-wrapper #resume-background {
+    margin-left: 0; }
+
+  #navbar #nav li {
+    padding: 8px 10px;
+    width: 100px; }
+
+  .button {
+    display: none; }
+
+  body > #page_content .content#project {
+    margin-left: 200px; }
+  body > #page_content .content#home {
+    margin-left: 160px; } }
