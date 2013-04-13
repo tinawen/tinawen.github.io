@@ -1,7 +1,7 @@
 3.2.7 (Media Mark)
-8fd8cc8566339265ba3a8b93ce6826bed546cd20
+9a0924fc1e7bf8e180a6112af2c5c25de35c52a5
 o:Sass::Tree::RootNode
-:@template"³8@mixin scale($factor) {
+:@template"®8@mixin scale($factor) {
     -webkit-transform: scale($factor);
     -moz-transform: scale($factor);
     -o-transform: scale($factor);
@@ -517,7 +517,7 @@ body {
        }
    }
 }
-//end:@children[o:Sass::Tree::MixinDefNode:
+:@children[o:Sass::Tree::MixinDefNode:
 @name"
 scale;[	o:Sass::Tree::PropNode:
 @tabsi ;	["-webkit-transform;[ :@valueo:Sass::Script::Funcall;	"
@@ -1085,5 +1085,4 @@ width;[ ;o;;;;"
  and "(o;	;;;"min-width;@;ië": o;; ["px;i@;@;!"
 320px;ië;"[ ")"
  and "(o;	;;;"max-width;@;ië": o;; ["px;ià;@;!"
-480px;ië;"[ ")o;)
-;;C;[ ;["/*end */;@;i;@;i;T
+480px;ië;"[ ");@;i;T
