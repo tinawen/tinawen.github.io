@@ -88,17 +88,17 @@ body {
           body #page_content .content#project .project-item .project-desc .project-detail {
             margin-top: 5px;
             line-height: 24px; }
-    body #page_content #menu, body #page_content #connect4, body #page_content #file-browser, body #page_content #chrome-extension, body #page_content #traveling {
+    body #page_content #menu, body #page_content #connect4, body #page_content #file-browser, body #page_content #chrome-extension, body #page_content #traveling, body #page_content #homedash {
       margin-top: 50px;
       line-height: 24px; }
-      body #page_content #menu p, body #page_content #connect4 p, body #page_content #file-browser p, body #page_content #chrome-extension p, body #page_content #traveling p {
+      body #page_content #menu p, body #page_content #connect4 p, body #page_content #file-browser p, body #page_content #chrome-extension p, body #page_content #traveling p, body #page_content #homedash p {
         float: left; }
-      body #page_content #menu li, body #page_content #connect4 li, body #page_content #file-browser li, body #page_content #chrome-extension li, body #page_content #traveling li {
+      body #page_content #menu li, body #page_content #connect4 li, body #page_content #file-browser li, body #page_content #chrome-extension li, body #page_content #traveling li, body #page_content #homedash li {
         float: left;
         list-style: none;
         margin: 10px;
         text-decoration: none; }
-      body #page_content #menu img, body #page_content #connect4 img, body #page_content #file-browser img, body #page_content #chrome-extension img, body #page_content #traveling img {
+      body #page_content #menu img, body #page_content #connect4 img, body #page_content #file-browser img, body #page_content #chrome-extension img, body #page_content #traveling img, body #page_content #homedash img {
         clear: both;
         margin: 30px;
         width: 80%; }
