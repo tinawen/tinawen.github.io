@@ -18,8 +18,9 @@
   <div id="page_content">
     <div class="content" id="homedash">
       <h1>Home Dashboard with Raspberry pi</h1>
-      <p>With this raspberry pi running, it pulls from google latitude, google calendar, and google tasks for my account and my boyfriend's account, every 30 minutes. The little purple tuna on the map is me, and the orange elephant is my boyfriend. After pulling down the calendar and tasks data, the pi tries to merge our events and tasks. My own event or task is color coded to purple, and my friend's to orange. The text is bolded to black if the event or task belongs to both of us.</p>
-      <p>I had fun building this little project. I already ordered a webcam from Amazon. Next thing is to have it take a picture every 30 minutes and upload the picture to Dropbox. I firmly believe this can prevent us from a breakin!</p>
+      <p>With this raspberry pi running, it pulls from google latitude, google calendar, and google tasks for my account and my boyfriend's account, every 30 minutes. The little purple tuna on the map is me, and the orange elephant is my boyfriend. After pulling down the calendar and tasks data, the pi tries to merge our events and tasks. My own event or task is color coded to purple, and my boyfriend's to orange. The text is bolded to black if the event or task belongs to both of us.</p>
+      <p>I also bought a $10 webcam to connect to the raspberry pi. A cron job is set up to check my boyfriend's and my google latitude location. Only take a picture of our apartment if neither of us is at home (for privacy reasons), and upload every picture to Dropbox as soon as they are taken. I have another cron job running every day to prune any picture that's more than one day old. </p>
+      <p>I had fun building this little project. The next step is to do some image processing to detect movements using the webcam. I want to set it up so it texts me if it detects any movement but neither of us is at home</p>
       <div class="desc-img">
 	<img src="../../static/img/homedash.png" />
       </div>
