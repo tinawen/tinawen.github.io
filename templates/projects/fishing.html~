@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Tina's Website</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel=stylesheet type=text/css href="../../static/css/view.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39735999-1', 'tinawen.com');
+      ga('send', 'pageview');
+    </script>
+    <link rel="shortcut icon" href="../../static/img/favicon.png"/>
+  </head>
+  <div id="page_content">
+    <div class="content" id="homedash">
+      <h1>iOS 7 Fishing Game with Sprite Kit</h1>
+      <p>Unlike it is on web, where designers can tweak CSS properties and see the effects update in real time. One of the biggest problems as a mobile developer working with designers is that when designers want to tweak anything like animation duration, font size, etc, I need to change it in code, recompile, rebuild, and then we see the effect. This got me thinking. What if I have all these tweakable parameters in a plist, back up the plist with Dropbox datastore, have a web interface where designers can modify these parameters, and have the effect live update within a second? </p>
+      <p>In order to show off this feature, I built an iOS 7 fishing game with an awesome designer, Yi Wei. We built a game, because neither of us has ever built a game before, and I wanted to try out the new iOS 7 goodness - sprite kit. The whole game took us less than 3 days to build, thanks to sprite kit. The code is on github: <a href="https://github.com/tinawen/Fish">github</a>.</p>
+      <p>We both had a blast building this game. We spent a lot of time sweating the details, from the bubbles in the ocean, to the cloud and boat animations. It's also really fun watching people playing with it. Everyone tries to catch the big whales!</p>
+      <p>Here are some pictures and videos from the game</p>
+      <div class="desc-img">
+	<img src="../../static/img/fish1.png" />
+      </div>
+      <div class="desc-img">
+	<img src="../../static/img/fish2.png" />
+      </div>
+      <div class="desc-img">
+	<img src="../../static/img/fish3.png" />
+      </div>
+      <div class="desc-video">
+      <video width="560" height="340" controls>
+	<source src="../../static/img/fish1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	  <source src="path/to/myvideo.ogv" type='video/ogg; codecs="theora, vorbis"'>
+      </video>
+      <video width="560" height="340" controls>
+	<source src="../../static/img/fish2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	  <source src="path/to/myvideo.ogv" type='video/ogg; codecs="theora, vorbis"'>
+      </video>
+
+    </div>
+    <div id="navbar">
+      <ul id="nav">
+	<li>
+	  <a href="../../index.html">Home</a>
+	</li>
+	<li>
+	  <a href="../bio.html">About Me</a>
+	</li>
+	<li>
+	  <a href="../resume.html">Resume</a>
+	</li>
+	<li class="active">
+	  <a href="../projects.html">Projects</a>
+	  <img src="../../static/img/icon.png" />
+	</li>
+      </ul>
+    </div>
+  </div>
+</html>
+
